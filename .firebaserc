@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "site": "tom-dunkin-site",
+    "default": "tom-dunkin-site"
+  }
+}
