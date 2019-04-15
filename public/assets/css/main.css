@@ -1100,7 +1100,7 @@ input, select, textarea {
 		z-index: 1;
 	}
 
-		#bg:before, #bg:after {
+		#bg:before, #bg {
 			content: '';
 			display: block;
 			position: absolute;
@@ -1126,7 +1126,7 @@ input, select, textarea {
 			z-index: 2;
 		}
 
-		#bg:after {
+		#bg {
 			-moz-transform: scale(1.125);
 			-webkit-transform: scale(1.125);
 			-ms-transform: scale(1.125);
@@ -1142,7 +1142,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-		body.is-article-visible #bg:after {
+		body.is-article-visible #bg {
 			-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);
 			-ms-transform: scale(1.0825);
