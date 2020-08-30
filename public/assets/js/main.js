@@ -14,19 +14,6 @@
 		$main = $('#main'),
 		$main_articles = $main.children('article');
 
-	// Random background image (#bg)
-	// function setBackground() {
-	//	var images = [
-	//		"https://i.imgur.com/LpslYx7.jpg",
-	//		"https://i.imgur.com/NlAvHDP.jpg",
-	//		"https://i.imgur.com/pFe8N2K.jpg",
-	//	];
-	//	var random = Math.floor(Math.random() * images.length);
-	//	var background = images[random];
-	//	document.getElementById("bg").style.backgroundImage = "url("+ background +")"; 
-	//	}
-	//	if (document.getElementById) { window.onload = setBackground };
-
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
